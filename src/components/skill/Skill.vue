@@ -1,9 +1,12 @@
 <template>
     <div class="skill-container">
+        <NavbarSkill/>
+        <br>
+        <br>
         <div class="skill">
             <div class="content-container">
                 <div class="content-title">
-                    <h4>Coding Skill</h4>
+                    <h4 id="Coding">Coding Skill</h4>
                     <hr>
                     <div class="set-menu-skill">
                         <div class="content-text">
@@ -139,7 +142,7 @@
                     </div>
                 </div>
                 <div class="content-title">
-                    <h4>Markup</h4>
+                    <h4 id="Markup">Markup</h4>
                     <hr>
                     <div class="set-menu-skill">
                         <div class="content-text">
@@ -199,7 +202,7 @@
                     </div>
                 </div>
                 <div class="content-title">
-                    <h4>Database</h4>
+                    <h4 id="Database">Database</h4>
                     <hr>
                     <div class="set-menu-skill">
                         <div class="content-text">
@@ -262,7 +265,7 @@
                     </div>
                 </div>
                 <div class="content-title">
-                    <h4>Cloud</h4>
+                    <h4 id="Cloud">Cloud</h4>
                     <hr>
                     <div class="set-menu-skill">
                         <div class="content-text">
@@ -323,7 +326,7 @@
                     </div>
                 </div>
                 <div class="content-title">
-                    <h4>Version control</h4>
+                    <h4 id="Version">Version control</h4>
                     <hr>
                     <div class="set-menu-skill">
                         <div class="content-text">
@@ -365,13 +368,31 @@
 </template>
 
 <script>
-export default {
+import NavbarSkill from './navbar_skill/NavbarSkill.vue'
 
+export default {
+    components:{
+        NavbarSkill
+    },
+    data(){
+        return{
+
+        }
+    },
+    methods:{
+        triggerTitle(){
+            const setTitle = "My Skill";
+            this.$root.state.setTitle = setTitle
+        }
+    },
+    mounted(){
+        this.triggerTitle()
+    }
 }
 </script>
 
 <style scoped>
-@media screen and (min-width: 501px){
+@media screen and (min-width: 1180px){
     .skill-container{
         width:95%;
         margin:auto;
@@ -427,7 +448,7 @@ export default {
         font-size: 10px;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1180px){
     .modal-content{
         color: black;
     }

@@ -52,17 +52,17 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 501px){
-    .navbar-container{
-        width: 100;
-    }
+@media screen and (min-width: 1180px){
  
     .navbar-nav{
-        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 4rem;
+        margin-left: 10rem;
     }
 
     .nav-item{
-        margin-left: 10rem;
+        text-align: center;
     }
     hr {
         border: 0 !important;
@@ -76,7 +76,7 @@ export default {
     }
 }
 
-@media screen and (max-width: 501px){
+@media screen and (max-width: 1180px){
     .nav-item{
         margin-left: 2rem;
     }

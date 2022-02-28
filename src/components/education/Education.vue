@@ -61,12 +61,25 @@
 
 <script>
 export default {
+    data(){
+        return{
 
+        }
+    },
+    methods:{
+        triggerTitle(){
+            const setTitle = "My Education";
+            this.$root.state.setTitle = setTitle
+        }
+    },
+    mounted(){
+        this.triggerTitle()
+    }
 }
 </script>
 
 <style scoped>
-@media screen and (min-width: 501px){
+@media screen and (min-width: 1180px){
     .education-container{
         width: 95%;
         margin: auto;
@@ -104,7 +117,7 @@ export default {
         font-weight: bold;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1180px){
     .education-container{
         width: 95%;
         margin: auto;
@@ -115,11 +128,18 @@ export default {
     }
     .content{
         display:grid;
-        grid-template-columns:2fr 1fr;
+        grid-template-columns:1fr 2fr;
         border: 1px solid white;
         border-radius: 30px;
         margin-top: 1rem;
         background-color:rgb(98, 98, 98);
+    }
+    .content-img{
+        border: 1px solid red;
+    }
+    .content-text{
+         border: 1px solid red;
+         text-align: center;
     }
   
     .set-img{

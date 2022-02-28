@@ -110,7 +110,7 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (min-width: 501px){
+@media screen and (min-width: 1180px){
 
     .home{
         display: grid;
@@ -157,7 +157,7 @@ export default {
     }
  
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1180px){
     .home-container{
         height:1130px;
     }

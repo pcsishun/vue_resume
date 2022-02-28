@@ -3,7 +3,7 @@
         <div class="experience">
             <div class="title-text">
                 <h3>Time Line</h3>
-                <hr>
+
             </div>
             <div class="content-text">
                 <div class="set-time-text-left">
@@ -40,12 +40,25 @@
 
 <script>
 export default {
+    data(){
+        return{
 
+        }
+    },
+    methods:{
+        triggerTitle(){
+            const setTitle = "My Experience";
+            this.$root.state.setTitle = setTitle
+        }
+    },
+    mounted(){
+        this.triggerTitle()
+    }
 }
 </script>
 
 <style scoped>
-@media screen and (min-width: 501px){
+@media screen and (min-width: 1180px){
     .experience-container{
         width:50%;
         margin: auto;
@@ -112,7 +125,7 @@ export default {
  
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1180px){
     .experience-container{
         width:95%;
         margin: auto;
