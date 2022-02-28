@@ -22,7 +22,13 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Version"><b>Version control</b></a>
-                    </li>                 
+                    </li>          
+                    <li class="nav-item">
+                        <a class="nav-link" href="#OS-level"><b>OS-level</b></a>
+                    </li>       
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Web-server"><b>Web server</b></a>
+                    </li>              
             </ul>
         </div>
         </nav>

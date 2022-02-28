@@ -190,6 +190,7 @@
                                                 <h6><li><a class="link-to" href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank">Media query</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Grid</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">Basic animation</a></li></h6>
                                             </div>
                                         </div>
                                         <div class="modal-footer">
@@ -283,7 +284,8 @@
                                         </div>
                                         <div class="modal-body">
                                             <div class="sub-title">
-                                                <h6><li><a class="link-to" href="https://cloud.google.com/" target="_blank">App engines</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://cloud.google.com/" target="_blank">Compute engine</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://cloud.google.com/" target="_blank">App engine</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://cloud.google.com/" target="_blank">DataStore</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://cloud.google.com/" target="_blank">Cloud storage</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://cloud.google.com/" target="_blank">Cloud sql</a></li></h6>
@@ -350,6 +352,74 @@
                                                 <h6><li><a class="link-to" href="https://github.com/" target="_blank">git checkout</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://github.com/" target="_blank">git branch</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://github.com/" target="_blank">git merge</a></li></h6>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="content-title">
+                    <h4 id="OS-level">OS-level virtualization</h4>
+                    <hr>
+                    <div class="set-menu-skill">
+                        <div class="content-text">
+                            <!-- Button trigger modal -->
+                            <div class="title-of-img">
+                                <h4>Docker</h4>
+                            </div>
+                            <div  class="set-img" data-toggle="modal" data-target="#exampleModal_docker"><img  class="btn-click-menu"  src="../.././assets/docker.png"/></div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal_docker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Experience in docker</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="sub-title">
+                                                <h6><li><a class="link-to" href="https://www.docker.com/" target="_blank">basic setting Dockerfile</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://www.docker.com/" target="_blank">docker pull</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://www.docker.com/" target="_blank">docker build</a></li></h6>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="content-title">
+                    <h4 id="Web-server">Web server</h4>
+                    <hr>
+                    <div class="set-menu-skill">
+                        <div class="content-text">
+                            <!-- Button trigger modal -->
+                            <div class="title-of-img">
+                                <h4>Nginx</h4>
+                            </div>
+                            <div  class="set-img" data-toggle="modal" data-target="#exampleModal_nginx"><img  class="btn-click-menu"  src="../.././assets/nginx.png"/></div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal_nginx" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Experience in Nginx</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="sub-title">
+                                                <h6><li><a class="link-to" href="https://www.nginx.com/resources/wiki/" target="_blank">basic setting in nginx.conf</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://www.nginx.com/resources/wiki/" target="_blank">setting root index</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://www.nginx.com/resources/wiki/" target="_blank">setting location</a></li></h6>
                                             </div>
                                         </div>
                                         <div class="modal-footer">
