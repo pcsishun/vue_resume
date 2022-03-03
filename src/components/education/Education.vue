@@ -134,11 +134,9 @@ export default {
         margin-top: 1rem;
         background-color:rgb(98, 98, 98);
     }
-    .content-img{
-        border: 1px solid red;
-    }
+ 
     .content-text{
-         border: 1px solid red;
+ 
          text-align: center;
     }
   

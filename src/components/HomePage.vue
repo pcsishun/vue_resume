@@ -52,31 +52,7 @@
     <div class="my-bio-content-container">
         <div class="my-bio-content">
             <div class="my-bio">
-                <p>
-                    I used to study about in stock market and future
-                    contact for 5 years. According to my experience, I
-                    can work well under pressure and have
-                    responsibility for my job. I do the marketing
-                    challenge when I was study at Chiang Mai
-                    University. When I work in Japan village I found
-                    myself that I love in marketing job. I like to
-                    improve my own skill reading the book or learn for
-                    someone who have an experience moreover I like
-                    to follow the trend market that I interesting or
-                    assigned.
-                </p>
-                <p>
-                    As a result, I want to be the part of your business
-                    because the marketing that I learn for 4 years
-                    and more outside that I can using my skill to
-                    make the project successful
-                </p>
-                <p>
-                    I have a strong willingness and all my property
-                    that you need is all match for you
-                    I hope my all my skill will make your business
-                    have more benefit as much as I can
-                </p>
+                <p>It not complete now, about my biograhy you can contact me for more infomation :)</p>
             </div>
         </div>  
     </div>
@@ -139,7 +115,7 @@ export default {
     .my-bio-content-container{
         text-align: center;
         margin-top: 2rem;
-        
+            
     }
     .my-bio-content{
         border: 1px solid white;
@@ -148,8 +124,8 @@ export default {
         width:98%;
     }
     .my-bio{
-        margin:auto;
-        width:90%;
+        margin-top: 10px;
+ 
     }
     .download-container{
         margin-top: 1rem;
