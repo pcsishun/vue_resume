@@ -3,9 +3,11 @@
     <div class="content-container">
         <div class="home">
             <div class="on-set-img">
-                <img src=".././assets/logo.png"/> 
+                <img class="avatar-img" width="200px" height="200px" src=".././assets/avata.jpg"/> 
             </div>
+
             <div class="on-set-menu">
+
                 <div class="content-type-text">
                     <div class="key-address">
                         <p><b>Name : </b></p>
@@ -46,7 +48,9 @@
                         <p>https://github.com/pcsishun</p>
                     </div>
                 </div>
+
             </div>
+
         </div>
     </div>
     <div class="my-bio-content-container">
@@ -61,11 +65,9 @@
 
         <div class="download-profile">
             <span>resume in pdf. here: &nbsp; </span> 
-            <a class="btn btn-secondary"  href='https://drive.google.com/u/0/uc?id=0B2Dm5qz0yyhtSm5fdVRlenRJM2lwVnhla0ZtZjhxS0hMSzJB&export=download'>Download</a>
+            <a class="btn btn-secondary"  href='https://drive.google.com/file/d/1VtWVUqgEhRoxJFt8VzX5Pmiu57ceTn5c/view?usp=sharing'>Download</a>
         </div>
     </div>
-
- 
 </div>
 
 </template>
@@ -87,6 +89,9 @@ export default {
 
 <style scoped>
 @media screen and (min-width: 1180px){
+    .avatar-img{
+        border-radius: 50%;
+    }
 
     .home{
         display: grid;
@@ -104,6 +109,7 @@ export default {
         border-radius: 30px;
         margin-right: 1rem
     }
+
     .content-container{
         margin-top: 2rem;
     }
@@ -134,8 +140,12 @@ export default {
  
 }
 @media screen and (max-width: 1180px){
+    .avatar-img{
+        border-radius: 50%;
+    }
+
     .home-container{
-        height:1130px;
+        height: 100%;
     }
     .home{
         text-align: center;
@@ -147,12 +157,16 @@ export default {
     .on-set-menu{
         text-align: center;
     }
+
     .content-container{
         margin-top: 2rem;
+        margin-left: 5px;
+        margin-right: 5px;
     }
+
     .content-type-text{
         display: grid;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1.5fr 5fr;
         margin-top: 20px;
     }
     .my-bio-content-container{

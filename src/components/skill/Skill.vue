@@ -69,6 +69,7 @@
                                             <div class="sub-title">
                                                 <h5>Front-end framework</h5>
                                                 <h6><li><a class="link-to" href="https://vuejs.org/" target="_blank">vue.js</a></li></h6>
+                                                <h6><li><a class="link-to" href="https://reactjs.org/" target="_blank">react</a></li></h6>
                                                 <h6><li><a class="link-to" href="https://ionicframework.com/docs/vue/overview" target="_blank">ionic for vue.js</a></li></h6>
                                             </div>
                                             <div class="sub-title">
